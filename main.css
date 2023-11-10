@@ -1,0 +1,29 @@
+/* Global Default */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #4b5c6b;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+nav a {
+    color: whitesmoke;
+    font-style: normal;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
