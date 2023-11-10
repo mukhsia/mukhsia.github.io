@@ -2,6 +2,7 @@
 *,
 *:before,
 *:after {
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
 }
@@ -25,7 +26,7 @@ nav a {
     color: whitesmoke;
     font-style: normal;
     text-decoration: none;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .hero {
@@ -39,17 +40,52 @@ nav a {
 }
 
 .hero h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xxx-large;
+    color: #ff7f7f;
+}
 
+.hero h2 {
+    font-size: x-large;
+    color: #59a5af;
 }
 
 .about-me {
+    background-color: #96c3ec;
     min-height: 20rem;
 }
 
 .projects {
-    min-height: 20rem;
+    min-height: 40rem;
+    background-color: #fbe192;
+
 }
 
 .contacts {
-    min-height: 20rem;
+    min-height: 10rem;
+    background-color: #dfe6ed;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    display:flex;
+    margin: 2rem;
+}
+
+.contact-descriptor { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.contact-information {
+    margin: 1rem;
 }
