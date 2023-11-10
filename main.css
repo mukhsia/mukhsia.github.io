@@ -11,6 +11,10 @@ body {
     min-height: 100vh;
 }
 
+
+/* --- Navbar --- */
+
+
 nav {
     padding: 1rem;
     background-color: #4b5c6b;
@@ -28,6 +32,10 @@ nav a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+/* --- Hero Section --- */
+
 
 .hero {
     background: url(/images/hero.jpg) no-repeat right 40% top 50% fixed;
@@ -50,17 +58,22 @@ nav a {
     color: #59a5af;
 }
 
+/* --- About Me Section ---*/
 .about-me {
     background-color: #96c3ec;
     min-height: 20rem;
 }
 
+
+/* --- Projects Section ---*/
 .projects {
     min-height: 40rem;
     background-color: #fbe192;
 
 }
 
+
+/* --- Contacts section --- */
 .contacts {
     min-height: 10rem;
     background-color: #dfe6ed;
