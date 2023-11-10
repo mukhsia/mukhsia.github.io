@@ -74,6 +74,30 @@ nav a {
     align-items: center;
 }
 
+.about-me-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-circle {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-profile {
+    object-fit: scale-down;
+}
+
+.about-me p {
+    margin: 0 5rem 2rem 5rem;
+    text-align: center;
+}
 
 /* --- Projects Section ---*/
 .projects {
@@ -100,12 +124,14 @@ nav a {
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 .contact {
     display:flex;
-    margin: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .contact-descriptor { 
@@ -115,4 +141,20 @@ nav a {
 
 .contact-information {
     margin: 1rem;
+}
+
+/* --- Copyright Footer --- */
+
+footer{
+    height:3rem;
+    background-color: #c3cfd9;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer p{
+    margin-left: 2rem;
+    font-weight: bold;
+    color: #383838;
 }
