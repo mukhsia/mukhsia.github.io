@@ -134,6 +134,7 @@ nav a {
 }
 
 .card {
+    display:grid;
     background-color: #d1efec;
     border-style:solid;
     border-radius: 3px;
@@ -144,16 +145,21 @@ nav a {
     position: relative;
 }
 
-/* --- 
-Div as a link non-Javascript solution
-adapted from https://stackoverflow.com/questions/796087/make-a-div-into-a-link
-Inserts an empty span in a link element and turn the span to fill the container and be on top.
---- */
-.card a span {
-    position:absolute; 
-    width:100%;
-    height:100%;
-    z-index: 1;
+.source-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7aa8b7;
+    border-radius: 6px;
+    outline: none;
+    transition: 300ms;
+}
+
+.source-button:hover {
+    background-color: orangered;
+    transform: scale(1.2);
 }
 
 .card-image {
