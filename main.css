@@ -28,6 +28,9 @@ body {
     margin-top: 1rem
 }
 
+.font-red {
+    color:red;
+}
 
 /* --- Section Titles --- */
 section h1 {
@@ -108,8 +111,10 @@ nav a {
 }
 
 .about-me p {
-    margin: 0 5rem 2rem 5rem;
+    margin: 0 10rem 2rem 10rem;
     text-align: center;
+    font-weight:bold;
+    color: #354858;
 }
 
 /* --- Projects Section ---*/
@@ -135,7 +140,7 @@ nav a {
     border-color: #3dbaae;
     margin: 2rem;
     min-height: 14rem;
-    width: 12rem;
+    width: 15rem;
 }
 
 .card-image {
@@ -147,12 +152,10 @@ nav a {
     background-color: #e3e8ed;
     min-height: 7rem;
     border-radius: 3px;
+    text-align: center;
 }
 
-
-
 .card-info h4 {
-    text-align: center;
     padding-top: 1rem;
 }
 
