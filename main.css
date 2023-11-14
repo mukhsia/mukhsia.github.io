@@ -53,6 +53,15 @@ nav ul {
     gap: 4rem;
 }
 
+@media only screen and (max-width: 600px) {
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+}
+
 nav a {
     color: whitesmoke;
     font-style: normal;
@@ -110,12 +119,30 @@ nav a {
     object-fit: scale-down;
 }
 
-/* TO DO: Use media query for landscape and portrait dispaly on phone screens */
+
 .about-me p {
     margin: 0 10rem 2rem 10rem;
     text-align: center;
     font-weight:bold;
     color: #354858;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me p {
+        margin: 0 2rem 2rem 2rem;
+        text-align: center;
+        font-weight:bold;
+        color: #354858;
+    }
+}
+
+@media only screen and (orientation: landscape) {
+    .about-me p {
+        margin: 0 2rem 2rem 2rem;
+        text-align: center;
+        font-weight:bold;
+        color: #354858;
+    }
 }
 
 /* --- Projects Section ---*/
