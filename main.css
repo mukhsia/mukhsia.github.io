@@ -82,15 +82,10 @@ nav a {
     gap: 2rem;
 }
 
-.profile-circle {
+.image-profile {
     width: 192px;
     height: 192px;
-    position: relative;
-    overflow: hidden;
     border-radius: 50%;
-}
-
-.image-profile {
     object-fit: scale-down;
 }
 
