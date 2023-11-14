@@ -110,6 +110,7 @@ nav a {
     object-fit: scale-down;
 }
 
+/* TO DO: Use media query for landscape and portrait dispaly on phone screens */
 .about-me p {
     margin: 0 10rem 2rem 10rem;
     text-align: center;
