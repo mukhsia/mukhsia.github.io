@@ -284,7 +284,6 @@ footer p{
 
 /* --- Jump to Top Button --- */
 .btn-top {
-    display: none; 
     position: fixed; 
     display: inline-block;
     padding: 15px 20px;
