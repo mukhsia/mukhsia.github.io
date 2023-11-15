@@ -308,7 +308,21 @@ footer p{
 
 @media only screen and (max-width: 600px){
     .btn-top {
-        padding: 10px 15px;
+        bottom: 1rem; 
+        right: 1rem; 
+        left: auto !important;
+        position: fixed !important; 
+        display: inline-block;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: rgb(46, 44, 44);
+        border-radius: 6px;
+        outline: none;
+        font-size: large;
+        font-weight: bold;
+        z-index: 2; 
         opacity: 0.7;
     }
 
