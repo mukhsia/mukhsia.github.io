@@ -40,8 +40,6 @@ section h1 {
 }
 
 /* --- Navbar --- */
-
-
 nav {
     padding: 1rem;
     background-color: #4b5c6b;
@@ -53,6 +51,7 @@ nav ul {
     gap: 4rem;
 }
 
+/* Reduce gap and change flex-direction to column for Mobile  */
 @media only screen and (max-width: 600px) {
     nav ul {
         list-style: none;
@@ -71,8 +70,6 @@ nav a {
 
 
 /* --- Hero Section --- */
-
-
 .hero {
     background: url(/images/hero.jpg) no-repeat right 40% top 50% fixed;
     min-height: 20rem;
@@ -127,6 +124,7 @@ nav a {
     color: #354858;
 }
 
+/* Better display of Background text on Mobile */
 @media only screen and (max-width: 600px) {
     .about-me p {
         margin: 0 2rem 2rem 2rem;
@@ -136,7 +134,7 @@ nav a {
     }
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (max-width: 600px) and (orientation: landscape) {
     .about-me p {
         margin: 0 2rem 2rem 2rem;
         text-align: center;
@@ -226,10 +224,28 @@ nav a {
     margin-bottom: 2rem;
 }
 
+/* Justify left for mobile users */
+@media only screen and (max-width: 600px) {
+    .contacts-container{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+}
+
 .contact {
     display:flex;
     margin-right: 1rem;
     margin-left: 1rem;
+}
+
+/* Make contact divs fit the width of the screen for mobile users */
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%
+    }
 }
 
 .contact-descriptor { 
@@ -241,8 +257,17 @@ nav a {
     margin: 1rem;
 }
 
-/* --- Copyright Footer --- */
+/* Right align information for mobile users */
+@media only screen and (max-width: 600px) {
+    .contact-information{
+        margin: 0 1rem 1rem 0rem;
+        text-align: right;
+        width: 100%
+    }
+}
 
+
+/* --- Copyright Footer --- */
 footer{
     height:3rem;
     background-color: #c3cfd9;
