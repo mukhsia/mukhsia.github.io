@@ -284,7 +284,10 @@ footer p{
 
 /* --- Jump to Top Button --- */
 .btn-top {
-    position: fixed; 
+    bottom: 1rem; 
+    right: 1rem; 
+    left: auto !important;
+    position: fixed !important; 
     display: inline-block;
     padding: 15px 20px;
     text-align: center;
@@ -293,8 +296,6 @@ footer p{
     background-color: rgb(46, 44, 44);
     border-radius: 6px;
     outline: none;
-    bottom: 1rem; 
-    right: 1rem; 
     font-size: large;
     font-weight: bold;
     z-index: 2; 
